@@ -8,11 +8,13 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import {MatButtonModule} from "@angular/material/button";
 import {MatIconModule} from "@angular/material/icon";
 import { SignupComponent } from './signup/signup.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SignupComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
