@@ -5,6 +5,7 @@
   border: 1px solid black;
   flex-direction: column;
   justify-content: center;
+  align-items: flex-end;
 }
 
 .child {
