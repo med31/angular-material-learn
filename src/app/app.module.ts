@@ -16,6 +16,7 @@ import { PastTrainingsComponent } from './training/past-trainings/past-trainings
 import { WelcomeComponent } from './welcome/welcome.component';
 import {MatFormFieldModule} from "@angular/material/form-field";
 import {MatInputModule} from "@angular/material/input";
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import {MatInputModule} from "@angular/material/input";
     MatButtonModule,
     MatIconModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
