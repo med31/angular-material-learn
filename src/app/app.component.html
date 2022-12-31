@@ -11,9 +11,11 @@
       </div>
       <div> LOGO</div>
       <div fxFlex fxLayout fxLayoutAlign="flex-end">
-        <a routerLink="/signup"> Signup </a>
-        <a routerLink="/login"> Login </a>
-        <a routerLink="/training"> Training </a>
+        <ul fxLayout fxLayoutGap="10px" class="navigation-items">
+          <li><a routerLink="/signup"> Signup </a></li>
+          <li><a routerLink="/login"> Login </a></li>
+          <li><a routerLink="/training"> Training </a></li>
+        </ul>
       </div>
     </mat-toolbar>
     <router-outlet></router-outlet>
