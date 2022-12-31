@@ -20,6 +20,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import {FormsModule} from "@angular/forms";
 import {MatDatepickerModule} from "@angular/material/datepicker";
 import {MatNativeDateModule} from "@angular/material/core";
+import {MatCheckboxModule} from "@angular/material/checkbox";
 
 @NgModule({
   declarations: [
@@ -43,8 +44,25 @@ import {MatNativeDateModule} from "@angular/material/core";
     MatInputModule,
     FormsModule,
     FlexLayoutModule,
-    MatDatepickerModule, MatNativeDateModule
+    MatDatepickerModule,
+    MatNativeDateModule,
+    MatCheckboxModule
   ],
+  exports: [
+    BrowserModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatSlideToggleModule,
+    MatButtonModule,
+    MatIconModule,
+    MatFormFieldModule,
+    MatInputModule,
+    FormsModule,
+    FlexLayoutModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    MatCheckboxModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
