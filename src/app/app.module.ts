@@ -29,6 +29,7 @@ import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.com
 import {MatTabsModule} from "@angular/material/tabs";
 import {MatCardModule} from "@angular/material/card";
 import {MatSelectModule} from "@angular/material/select";
+import {MatProgressSpinnerModule} from "@angular/material/progress-spinner";
 
 @NgModule({
   declarations: [
@@ -62,7 +63,8 @@ import {MatSelectModule} from "@angular/material/select";
     MatListModule,
     MatTabsModule,
     MatCardModule,
-    MatSelectModule
+    MatSelectModule,
+    MatProgressSpinnerModule
   ],
   exports: [
     BrowserModule,
@@ -82,7 +84,8 @@ import {MatSelectModule} from "@angular/material/select";
     MatToolbarModule,
     MatTabsModule,
     MatCardModule,
-    MatSelectModule
+    MatSelectModule,
+    MatProgressSpinnerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
