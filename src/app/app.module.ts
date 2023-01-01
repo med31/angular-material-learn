@@ -28,6 +28,7 @@ import { HeaderComponent } from './navigation/header/header.component';
 import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
 import {MatTabsModule} from "@angular/material/tabs";
 import {MatCardModule} from "@angular/material/card";
+import {MatSelectModule} from "@angular/material/select";
 
 @NgModule({
   declarations: [
@@ -60,7 +61,8 @@ import {MatCardModule} from "@angular/material/card";
     MatToolbarModule,
     MatListModule,
     MatTabsModule,
-    MatCardModule
+    MatCardModule,
+    MatSelectModule
   ],
   exports: [
     BrowserModule,
@@ -79,7 +81,8 @@ import {MatCardModule} from "@angular/material/card";
     MatSidenavModule,
     MatToolbarModule,
     MatTabsModule,
-    MatCardModule
+    MatCardModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]
