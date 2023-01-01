@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, EventEmitter, Output} from '@angular/core';
 
 @Component({
   selector: 'app-new-training',
@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./new-training.component.css']
 })
 export class NewTrainingComponent {
+  @Output()
+  startTraining = new EventEmitter<void>();
 
+  onStartTraining() {
+    this.startTraining.emit();
+  }
 }
