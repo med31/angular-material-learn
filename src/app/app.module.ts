@@ -27,6 +27,7 @@ import {MatListModule} from "@angular/material/list";
 import { HeaderComponent } from './navigation/header/header.component';
 import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
 import {MatTabsModule} from "@angular/material/tabs";
+import {MatCardModule} from "@angular/material/card";
 
 @NgModule({
   declarations: [
@@ -58,7 +59,8 @@ import {MatTabsModule} from "@angular/material/tabs";
     MatSidenavModule,
     MatToolbarModule,
     MatListModule,
-    MatTabsModule
+    MatTabsModule,
+    MatCardModule
   ],
   exports: [
     BrowserModule,
@@ -76,7 +78,8 @@ import {MatTabsModule} from "@angular/material/tabs";
     MatCheckboxModule,
     MatSidenavModule,
     MatToolbarModule,
-    MatTabsModule
+    MatTabsModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
